@@ -31,14 +31,14 @@ header > h1 {
     text-align: center;
     color: white;
     font-family: var(--fonte2);
-    font-size: 3em;
+    font-size: 5vw;
 }
 
 header > p {
     text-align: center;
     color: white; 
     margin-top: 8px;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 
@@ -51,14 +51,18 @@ section > p {
     line-height: 2.1em;
     padding-bottom: 2em;
     font-family: var(--fonte3);
-    font-size: 1.7em;
+    font-size: 3.5vw;
 }
 
-p.texto {
-   
+section#diferente {
+    background-color: #000000c4;
+    display: inline-block;  
+    margin: 9vw;
+    color: white;
+    
 }
 
-section#imagem {
+div#imagem {
     background-image: url('../fotos/foto_do_corinthians.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
