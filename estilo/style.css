@@ -72,10 +72,20 @@ div#imagem {
 
 footer {
     background-color: black;
-    padding: 8px 0px 8px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 footer > p {
     text-align: center;
     color: white;
+}
+
+a#link {
+    text-decoration: none;
+    color: white;
+}
+
+a#link:hover {
+    color: rgb(6, 184, 255);
+    transition: 1s;
 }
